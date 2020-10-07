@@ -38,7 +38,7 @@ main .container {
   flex-direction: column;
 }
 main .container #picture {
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 10px 0 0;
   height: 40%;
   background: url(../img/drawers.jpg) center/cover no-repeat;
 }
@@ -124,6 +124,7 @@ main .container #slideUp #share img {
   main .container #picture {
     height: 100%;
     width: 40%;
+    border-radius: 10px 0 0 10px;
     background: url(../img/drawers.jpg) center/cover no-repeat;
   }
   main .container aside {
